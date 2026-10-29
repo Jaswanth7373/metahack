@@ -1,0 +1,10 @@
+{
+  "kind": "plan",
+  "model": "muse-wonder-1.0",
+  "source": "hand-authored demo fixture (estimated token counts); re-record in real mode to replace",
+  "content": "{\"document_type\": \"energy_assistance_application\", \"document_title\": \"Household Energy Assistance Program - Application\", \"intent\": \"Apply for the winter energy assistance credit before the deadline\", \"actions\": [{\"tool\": \"explain_document\", \"reason\": \"Explain the eligibility letter and what the credit is, in Spanish.\"}, {\"tool\": \"extract_deadline\", \"reason\": \"The application must be received by a fixed date.\"}, {\"tool\": \"fill_form\", \"reason\": \"Page 2 is the application; most answers are in the letter and the user's request.\"}, {\"tool\": \"verify_form\", \"reason\": \"Income and household facts must match the letter and what the user said.\"}, {\"tool\": \"add_deadline\", \"reason\": \"Save the application deadline as a reminder.\"}, {\"tool\": \"ask_user_confirmation\", \"reason\": \"The applicant must review, sign and make the declaration personally.\"}]}",
+  "usage": {
+    "prompt_tokens": 2550,
+    "completion_tokens": 380
+  }
+}

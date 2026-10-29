@@ -1,0 +1,10 @@
+{
+  "kind": "explain",
+  "model": "muse-spark-1.3",
+  "source": "hand-authored demo fixture (estimated token counts); re-record in real mode to replace",
+  "content": "{\"summary\": \"Es una carta del condado de Maplewood: su hogar podría recibir un crédito único de hasta $480 para la calefacción este invierno.\", \"what_it_means\": \"Según sus registros, en su casa viven 4 personas con ingresos de $2,850 al mes. Los hogares de 4 personas con ingresos de hasta $3,400 al mes pueden recibir la ayuda. Para pedirla, la solicitud (página 2) debe llegar antes del 20 de noviembre de 2026.\", \"steps\": [\"Revise la solicitud de la página 2 — PaperPilot ya la llenó con los datos de la carta y lo que usted dijo.\", \"Confirme que sus ingresos mensuales siguen siendo $2,850; si cambiaron, corríjalos.\", \"Marque usted mismo la declaración y firme la solicitud.\", \"Envíela para que llegue antes del 20 de noviembre de 2026.\"], \"warnings\": [\"Si llega después del 20 de noviembre, la solicitud queda en lista de espera.\", \"PaperPilot no da asesoría legal — usted decide y confirma todo.\"]}",
+  "usage": {
+    "prompt_tokens": 2200,
+    "completion_tokens": 520
+  }
+}

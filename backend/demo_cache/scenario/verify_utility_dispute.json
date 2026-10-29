@@ -1,0 +1,10 @@
+{
+  "kind": "verify",
+  "model": "muse-wonder-1.0",
+  "source": "hand-authored demo fixture (estimated token counts); re-record in real mode to replace",
+  "content": "{\"overall_confidence\": 0.86, \"summary\": \"Name, account, address and contact details match the notice exactly. The dispute reason is supported by the bill figures but should be confirmed in the account holder's own words.\", \"issues\": [\"Reason for dispute: confirm it describes your situation (for example, if you were away or nothing changed at home).\", \"Signature and date must be added by the account holder.\"], \"fields\": [{\"name\": \"customer_name\", \"confidence\": 0.99, \"needs_review\": false, \"note\": null}, {\"name\": \"account_number\", \"confidence\": 0.99, \"needs_review\": false, \"note\": null}, {\"name\": \"service_address\", \"confidence\": 0.98, \"needs_review\": false, \"note\": null}, {\"name\": \"bill_period\", \"confidence\": 0.97, \"needs_review\": false, \"note\": null}, {\"name\": \"disputed_amount\", \"confidence\": 0.88, \"needs_review\": false, \"note\": null}, {\"name\": \"dispute_reason\", \"confidence\": 0.76, \"needs_review\": true, \"note\": \"Inferred from the bill comparison. Add details only you know.\"}, {\"name\": \"request_meter_test\", \"confidence\": 0.93, \"needs_review\": false, \"note\": null}]}",
+  "usage": {
+    "prompt_tokens": 3300,
+    "completion_tokens": 480
+  }
+}

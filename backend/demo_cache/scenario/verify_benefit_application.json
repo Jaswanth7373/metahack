@@ -1,0 +1,10 @@
+{
+  "kind": "verify",
+  "model": "muse-wonder-1.0",
+  "source": "hand-authored demo fixture (estimated token counts); re-record in real mode to replace",
+  "content": "{\"overall_confidence\": 0.84, \"summary\": \"Identity and contact fields match the letter. Household size and heating source match the applicant's request. Income is copied from county records and may be out of date.\", \"issues\": [\"Monthly income comes from the county's records - check it is still correct.\", \"The declaration and signature must be completed by the applicant personally.\"], \"fields\": [{\"name\": \"applicant_name\", \"confidence\": 0.99, \"needs_review\": false, \"note\": null}, {\"name\": \"case_id\", \"confidence\": 0.99, \"needs_review\": false, \"note\": null}, {\"name\": \"household_size\", \"confidence\": 0.96, \"needs_review\": false, \"note\": null}, {\"name\": \"monthly_income\", \"confidence\": 0.74, \"needs_review\": true, \"note\": \"Copied from county records; update it if your income changed.\"}, {\"name\": \"heating_source\", \"confidence\": 0.9, \"needs_review\": false, \"note\": null}]}",
+  "usage": {
+    "prompt_tokens": 3100,
+    "completion_tokens": 420
+  }
+}

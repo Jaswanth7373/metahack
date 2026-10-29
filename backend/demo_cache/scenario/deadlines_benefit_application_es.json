@@ -1,0 +1,10 @@
+{
+  "kind": "deadlines",
+  "model": "muse-spark-1.3",
+  "source": "hand-authored demo fixture (estimated token counts); re-record in real mode to replace",
+  "content": "{\"deadlines\": [{\"title\": \"Enviar solicitud de ayuda de energía\", \"date\": \"2026-11-20\", \"description\": \"La solicitud debe llegar a Maplewood County Human Services.\"}]}",
+  "usage": {
+    "prompt_tokens": 1800,
+    "completion_tokens": 100
+  }
+}

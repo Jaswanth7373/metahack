@@ -1,0 +1,10 @@
+{
+  "kind": "plan",
+  "model": "muse-wonder-1.0",
+  "source": "hand-authored demo fixture (estimated token counts); re-record in real mode to replace",
+  "content": "{\"document_type\": \"utility_high_bill_dispute_notice\", \"document_title\": \"Notice of High Bill and Right to Dispute\", \"intent\": \"Dispute the September 2026 electricity charge and request a meter test before the deadline\", \"actions\": [{\"tool\": \"explain_document\", \"reason\": \"The user says they do not understand the notice; explain it in Hindi.\"}, {\"tool\": \"extract_deadline\", \"reason\": \"The dispute form must be returned by a fixed date.\"}, {\"tool\": \"fill_form\", \"reason\": \"Page 2 is a Billing Dispute Response Form the user wants to submit.\"}, {\"tool\": \"draft_response\", \"reason\": \"A short cover letter makes the dispute and meter-test request explicit.\"}, {\"tool\": \"verify_form\", \"reason\": \"Check every filled value against the notice before the user reviews it.\"}, {\"tool\": \"add_deadline\", \"reason\": \"Save the response deadline as a reminder.\"}, {\"tool\": \"ask_user_confirmation\", \"reason\": \"The user must review and confirm before anything is final.\"}]}",
+  "usage": {
+    "prompt_tokens": 2650,
+    "completion_tokens": 420
+  }
+}

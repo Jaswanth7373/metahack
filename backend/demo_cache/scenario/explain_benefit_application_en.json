@@ -1,0 +1,10 @@
+{
+  "kind": "explain",
+  "model": "muse-spark-1.3",
+  "source": "hand-authored demo fixture (estimated token counts); re-record in real mode to replace",
+  "content": "{\"summary\": \"This is a letter from Maplewood County: your household may get a one-time heating credit of up to $480 this winter.\", \"what_it_means\": \"Their records show 4 people in your home with $2,850 monthly income. Households of 4 earning up to $3,400 a month can qualify. To apply, the application on page 2 must be received by November 20, 2026.\", \"steps\": [\"Check the application on page 2 — PaperPilot filled it from the letter and your request.\", \"Confirm your monthly income is still $2,850; correct it if it changed.\", \"Tick the declaration and sign the application yourself.\", \"Send it so it arrives before November 20, 2026.\"], \"warnings\": [\"Applications received after November 20 go on a waiting list.\", \"PaperPilot does not give legal advice — you decide and confirm everything.\"]}",
+  "usage": {
+    "prompt_tokens": 2200,
+    "completion_tokens": 430
+  }
+}

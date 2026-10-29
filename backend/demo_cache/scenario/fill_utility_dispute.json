@@ -1,0 +1,10 @@
+{
+  "kind": "fill",
+  "model": "muse-spark-1.3",
+  "source": "hand-authored demo fixture (estimated token counts); re-record in real mode to replace",
+  "content": "{\"fields\": [{\"name\": \"customer_name\", \"value\": \"[NAME_1]\", \"confidence\": 0.99, \"note\": null}, {\"name\": \"account_number\", \"value\": \"[ACCOUNT_1]\", \"confidence\": 0.99, \"note\": null}, {\"name\": \"service_address\", \"value\": \"[ADDRESS_1]\", \"confidence\": 0.98, \"note\": null}, {\"name\": \"phone\", \"value\": \"[PHONE_1]\", \"confidence\": 0.95, \"note\": \"Phone on file in the notice\"}, {\"name\": \"email\", \"value\": \"[EMAIL_2]\", \"confidence\": 0.95, \"note\": \"Email on file in the notice\"}, {\"name\": \"bill_period\", \"value\": \"September 1 - September 30, 2026\", \"confidence\": 0.97, \"note\": null}, {\"name\": \"disputed_amount\", \"value\": \"612.40\", \"confidence\": 0.9, \"note\": \"Full bill amount; reduce it if only part is disputed\"}, {\"name\": \"dispute_reason\", \"value\": \"The bill shows 2,940 kWh for September 2026, about 3.1 times my 12-month average of 948 kWh. This is far above my normal usage and I believe the meter reading or the charge may be incorrect. I request a review and a meter accuracy test.\", \"confidence\": 0.8, \"note\": \"Written from the bill comparison and your request\"}, {\"name\": \"request_meter_test\", \"value\": \"Yes\", \"confidence\": 0.92, \"note\": \"You asked for a meter check\"}, {\"name\": \"request_payment_plan\", \"value\": \"Off\", \"confidence\": 0.85, \"note\": \"You did not ask for a payment plan\"}, {\"name\": \"date_signed\", \"value\": \"\", \"confidence\": 0.0, \"note\": \"Write the date when you sign\"}]}",
+  "usage": {
+    "prompt_tokens": 2750,
+    "completion_tokens": 560
+  }
+}

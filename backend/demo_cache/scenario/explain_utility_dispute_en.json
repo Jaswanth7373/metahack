@@ -1,0 +1,10 @@
+{
+  "kind": "explain",
+  "model": "muse-spark-1.3",
+  "source": "hand-authored demo fixture (estimated token counts); re-record in real mode to replace",
+  "content": "{\"summary\": \"This is a notice from your power company. Your September 2026 bill is $612.40, about 3 times your normal usage.\", \"what_it_means\": \"The company says you used 2,940 kWh in September, while your 12-month average is 948 kWh. If you think the bill is wrong, you can dispute it by returning the form by November 3, 2026. While the dispute is reviewed, they will not collect the disputed amount or add a late fee to it.\", \"steps\": [\"Check the Billing Dispute Response Form on page 2 — PaperPilot has filled it in for you.\", \"A free meter accuracy test is selected — confirm that is what you want.\", \"Sign and date the form yourself.\", \"Send it by mail or email it to [EMAIL_1] before November 3, 2026.\", \"Keep paying any charges you are not disputing.\"], \"warnings\": [\"If nothing is received by November 3, a 1.5% late fee may be added and the account may go to collection after 30 days.\", \"PaperPilot does not give legal advice — the final decision is yours.\"]}",
+  "usage": {
+    "prompt_tokens": 2300,
+    "completion_tokens": 520
+  }
+}
