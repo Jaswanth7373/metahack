@@ -1,0 +1,18 @@
+# secrets
+.env
+.env.*
+!.env.example
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# local runtime data (uploads, filled forms, SQLite with personal data)
+backend/data/
+# node
+node_modules/
+frontend/dist/
+# os/editor
+.DS_Store
+.vscode/
+.idea/
